@@ -7,10 +7,11 @@
 # review when someone opens a pull request.
 *       @mszostok
 
-/some/awesome/dir @mszostok @gh-cOdeownErs/A-TeAm
+# Check if GitHub is case insensitive
+/some/awesome/dir @mszostok @GiTHubCodeOwners/A-TeAm  @GiTHubCodeOwners/all-STArs
 
-/some/other/maybe/awesome/file.txt @gh-codeowners/Amigos
-/some/other/maybe/awesome/answer.txt  @gh-codeowners/maniacs @gh-codeowners/a-team @gh-codeowners/all-stars
+/some/other/maybe/awesome/file.txt @GitHubCODEOWNERS/Amigos
+/some/other/maybe/awesome/answer.txt  @GitHubCODEOWNERS/maniacs @GitHubCODEOWNERS/a-team @GitHubCODEOWNERS/all-stars
 
 *.md @ghost
 
