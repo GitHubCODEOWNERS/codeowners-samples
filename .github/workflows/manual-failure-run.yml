@@ -12,7 +12,8 @@ jobs:
         with:
           ref: failures
       - name: GitHub CODEOWNERS Validator
-        uses: mszostok/codeowners-validator@v0.7.0
+#        uses: mszostok/codeowners-validator@v0.7.0
+        uses: ./
         with:
           checks: "files,owners,duppatterns,syntax"
           experimental_checks: "notowned"
