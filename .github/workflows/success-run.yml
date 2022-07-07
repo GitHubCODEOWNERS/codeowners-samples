@@ -19,6 +19,6 @@ jobs:
         with:
           checks: "files,owners,duppatterns,syntax"
           experimental_checks: "notowned,avoid-shadowing"
-
-          # GitHub access token is required only if the `owners` check is enabled
-          github_access_token: "${{ secrets.OWNERS_VALIDATOR_GITHUB_SECRET }}"
+          github_app_id: ${{ secrets.APP_ID }}
+          github_app_installation_id: ${{ secrets.APP_INSTALLATION_ID }}
+          github_app_private_key: ${{ secrets.APP_PRIVATE_KEY }}
